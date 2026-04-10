@@ -1,6 +1,6 @@
 import unittest
 
-from glitch_betting_core.pricing import edge_percent, no_vig_two_way
+from glitch_betting_core.pricing import edge_percent, expected_value, no_vig_two_way
 
 
 class PricingTests(unittest.TestCase):
@@ -11,6 +11,9 @@ class PricingTests(unittest.TestCase):
 
     def test_edge_percent(self) -> None:
         self.assertAlmostEqual(edge_percent(0.54, 0.50), 4.0)
+
+    def test_expected_value(self) -> None:
+        self.assertAlmostEqual(expected_value(0.54, 2.0), 0.08)
 
 
 if __name__ == "__main__":

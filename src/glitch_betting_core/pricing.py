@@ -10,3 +10,9 @@ def no_vig_two_way(prob_a: float, prob_b: float) -> tuple[float, float]:
 
 def edge_percent(model_probability: float, market_probability: float) -> float:
     return (model_probability - market_probability) * 100.0
+
+
+def expected_value(true_probability: float, decimal_odds: float) -> float:
+    if decimal_odds <= 1.0:
+        raise ValueError("decimal_odds must be greater than 1.0")
+    return (true_probability * decimal_odds) - 1.0
