@@ -2,8 +2,8 @@
 
 from .odds import american_to_probability, decimal_to_probability, probability_to_decimal
 from .pricing import edge_percent, expected_value, no_vig_two_way
-from .staking import capped_kelly_fraction, kelly_fraction, kelly_fraction_from_edge
-from .types import MarketPrice, PricingDecision
+from .staking import capped_kelly_fraction, kelly_fraction, kelly_fraction_from_edge, recommend_stake_from_edge
+from .types import MarketPrice, PricingDecision, StakingRecommendation
 
 __all__ = [
     "american_to_probability",
@@ -14,7 +14,9 @@ __all__ = [
     "no_vig_two_way",
     "kelly_fraction",
     "kelly_fraction_from_edge",
+    "recommend_stake_from_edge",
     "capped_kelly_fraction",
     "MarketPrice",
     "PricingDecision",
+    "StakingRecommendation",
 ]
