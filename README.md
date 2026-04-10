@@ -115,6 +115,16 @@ print(edge_percent(model_prob, market_prob))
 - [Roadmap](docs/roadmap.md)
 - [Adoption Guide](docs/adoption.md)
 
+## Project Family
+
+This repository is part of the Glitch engine family:
+
+- [Glitch Betting Core](https://github.com/glitch-executor/glitch-betting-core)
+- [Glitch Cricket Engine](https://github.com/glitch-executor/glitch-cricket-engine)
+- [Glitch NBA Engine](https://github.com/glitch-executor/glitch-nba-engine)
+
+A branded social preview asset is included at `assets/social-preview.svg` for GitHub repo settings, link previews, or launch posts.
+
 ## Branding and Attribution
 
 Glitch Betting Core is part of the original Glitch project family.
