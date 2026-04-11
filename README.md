@@ -9,7 +9,17 @@
 
 Shared pricing, staking, odds, and decision primitives for the Glitch family of sports intelligence engines.
 
-Glitch Betting Core is the common decision layer beneath `glitch-cricket-engine` and `glitch-nba-engine`. It is where the reusable pieces live on purpose: odds math, pricing helpers, stake sizing, shared payloads, and the typed building blocks that should not drift across sport-specific repos.
+Glitch Betting Core is the shared layer beneath the sport-specific repos: one place for the math, pricing helpers, stake sizing, shared payloads, and typed building blocks that should not drift.
+
+## Glitch Engine Family
+
+```mermaid
+flowchart LR
+    A[Glitch Betting Core] --> B[Glitch Cricket Engine]
+    A --> C[Glitch NBA Engine]
+    B --> D[Live Cricket Analysis]
+    C --> E[Pregame NBA Intelligence]
+```
 
 ## Why This Repo Exists
 
