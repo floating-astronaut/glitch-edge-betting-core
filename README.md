@@ -6,9 +6,9 @@
 ![Focus](https://img.shields.io/badge/focus-shared%20betting%20infrastructure-1f6feb)
 ![Scope](https://img.shields.io/badge/scope-math%20%7C%20pricing%20%7C%20staking-brightgreen)
 
-Shared math, pricing, and infrastructure primitives for the Glitch sports engine family.
+Shared pricing, staking, odds, and decision primitives for the Glitch family of sports intelligence engines.
 
-This repo is the common layer intended to sit underneath sport-specific systems like `glitch-cricket-engine` and `glitch-nba-engine`. It holds the reusable parts that should not be copied and drift across repos: implied-probability math, edge calculations, staking helpers, core types, and eventually shared reporting or messaging helpers.
+Glitch Betting Core is the common decision layer beneath `glitch-cricket-engine` and `glitch-nba-engine`. It is where the reusable pieces live on purpose: odds math, pricing helpers, stake sizing, shared payloads, and the typed building blocks that should not drift across sport-specific repos.
 
 ## Why This Repo Exists
 
@@ -123,7 +123,7 @@ This repository is part of the Glitch engine family:
 - [Glitch Cricket Engine](https://github.com/glitch-executor/glitch-cricket-engine)
 - [Glitch NBA Engine](https://github.com/glitch-executor/glitch-nba-engine)
 
-A branded social preview asset is included at `assets/social-preview.svg` for GitHub repo settings, link previews, or launch posts.
+GitHub-ready social preview assets are included at `assets/social-preview.png` and `assets/social-preview.svg` for repo settings, link previews, or launch posts.
 
 ## Branding and Attribution
 
