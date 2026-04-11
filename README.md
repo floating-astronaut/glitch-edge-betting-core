@@ -2,9 +2,10 @@
 
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
-![Tests](https://github.com/glitch-executor/glitch-betting-core/actions/workflows/python-tests.yml/badge.svg)
-![Focus](https://img.shields.io/badge/focus-shared%20betting%20infrastructure-1f6feb)
-![Scope](https://img.shields.io/badge/scope-math%20%7C%20pricing%20%7C%20staking-brightgreen)
+![Checks](https://github.com/glitch-executor/glitch-betting-core/actions/workflows/python-tests.yml/badge.svg)
+![Family](https://img.shields.io/badge/family-glitch%20engine-111827?logo=github&logoColor=white)
+![Layer](https://img.shields.io/badge/layer-shared%20core-00c27a)
+![Scope](https://img.shields.io/badge/scope-pricing%20%7C%20staking%20%7C%20odds-16a34a)
 
 Shared pricing, staking, odds, and decision primitives for the Glitch family of sports intelligence engines.
 
