@@ -136,6 +136,13 @@ This repository is part of the Glitch engine family:
 
 GitHub-ready social preview assets are included at `assets/social-preview.png` and `assets/social-preview.svg` for repo settings, link previews, or launch posts.
 
+## Maintainer And Contact
+
+Glitch Executor is developed and maintained by Tejas Karan Agrawal, operating under the business name Nuraveda.
+
+- Support and responsible disclosure: `support@glitchexecutor.com`
+- Registered address: `77 Huntley St, Toronto, ON M4Y 2P3, Canada`
+
 ## Branding and Attribution
 
 Glitch Betting Core is part of the original Glitch project family.
