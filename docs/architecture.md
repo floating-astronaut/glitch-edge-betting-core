@@ -12,8 +12,8 @@ It is intentionally limited to reusable, sport-agnostic code:
 
 ## Intended Adoption Pattern
 
-- `glitch-cricket-engine` imports shared math from here
-- `glitch-nba-engine` imports shared math from here
+- `glitch-edge-cricket-engine` imports shared math from here
+- `glitch-edge-nba-engine` imports shared math from here
 - sport-specific logic stays in sport-specific repos
 
 ## Design Rule
