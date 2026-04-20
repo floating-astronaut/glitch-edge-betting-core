@@ -1,4 +1,4 @@
-# Glitch Betting Core
+# Glitch Edge Betting Core
 
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
@@ -7,9 +7,11 @@
 ![Layer](https://img.shields.io/badge/layer-shared%20core-00c27a)
 ![Scope](https://img.shields.io/badge/scope-pricing%20%7C%20staking%20%7C%20odds-16a34a)
 
-Shared pricing, staking, odds, and decision primitives for the Glitch family of sports intelligence engines.
+Shared pricing, staking, odds, and decision primitives for **Glitch Edge** betting and sports intelligence products.
 
 Glitch Betting Core is the shared layer beneath the sport-specific repos: one place for the math, pricing helpers, stake sizing, shared payloads, and typed building blocks that should not drift.
+
+> Part of **Glitch Edge**, the betting and sports intelligence domain inside **Glitch Executor Labs** — one builder shipping products across **Trade**, **Edge**, and **Grow**.
 
 ## Glitch Engine Family
 
