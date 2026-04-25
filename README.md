@@ -13,6 +13,23 @@ Glitch Betting Core is the shared layer beneath the sport-specific repos: one pl
 
 > Part of **Glitch Edge**, the betting and sports intelligence domain inside **Glitch Executor Labs** — one builder shipping products across **Trade**, **Edge**, and **Grow**.
 
+---
+
+## 💼 AI betting bots — available for sale / Cloudbet-ready
+
+This `betting-core` repo is the **only public piece** of the Glitch Edge stack. The full sport-specific bots that sit on top of it are private and locked.
+
+Two production-ready agents are available today:
+
+- **🏏 Cricket bot** — IPL & PSL, ball-by-ball live model, scenario engine, paper-first promoted to live.
+- **🏀 NBA bot** — pregame intelligence, market mapping, pricing, lineup-context aware.
+
+Both are **ready to deploy for programmatic betting via [Cloudbet](https://www.cloudbet.com/)** (or any sportsbook with a comparable API). Available **for sale** as standalone agents, **as a managed deployment**, or as a **custom build** for any other sport, league, or AI-betting request.
+
+→ Reach us at **[support@glitchexecutor.com](mailto:support@glitchexecutor.com)** with what you're after — sport, market, bookmaker, bankroll constraints — and we'll come back with a scope.
+
+---
+
 ## Glitch Engine Family
 
 ```mermaid
@@ -132,9 +149,9 @@ print(edge_percent(model_prob, market_prob))
 
 This repository is part of the Glitch engine family:
 
-- [Glitch Betting Core](https://github.com/glitch-exec-labs/glitch-edge-betting-core)
-- [Glitch Cricket Engine](https://github.com/glitch-exec-labs/glitch-edge-cricket-engine)
-- [Glitch NBA Engine](https://github.com/glitch-exec-labs/glitch-edge-nba-engine)
+- **Glitch Betting Core** (this repo) — public, Apache 2.0
+- **Glitch Cricket Engine** — _private, available for sale (see top of README)_
+- **Glitch NBA Engine** — _private, available for sale (see top of README)_
 
 GitHub-ready social preview assets are included at `assets/social-preview.png` and `assets/social-preview.svg` for repo settings, link previews, or launch posts.
 
